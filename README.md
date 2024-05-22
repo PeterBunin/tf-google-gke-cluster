@@ -59,7 +59,7 @@ output "kubeconfig" {
 | GOOGLE_PROJECT   | GCP project name                 | string | no              |    no    |
 | GOOGLE_REGION    | GCP region name                  | string | "us-central1-c" |    no    |
 | GKE_MACHINE_TYPE | GKE node machine type            | string | "g1-small"      |    no    |
-| GKE_NUM_NODES    | Number of nodes in the node pool | number | 2               |    no    |
+| GKE_NUM_NODES    | Number of nodes in the node pool | number | 8               |    no    |
 
 ## Outputs
 kubeconfig - Generated Kubernetes configuration file
